@@ -189,7 +189,7 @@ int DisableGestureHaptic = 0;
 static int baseline_ret = 0;
 static int TP_FW;
 static int tp_dev = 6;
-static unsigned int tp_debug = 1;
+static unsigned int tp_debug = 0;
 static int button_map[3];
 static int tx_rx_num[2];
 static int16_t Rxdata[30][30];
