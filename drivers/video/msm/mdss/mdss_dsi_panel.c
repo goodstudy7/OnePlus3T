@@ -3388,7 +3388,6 @@ int mdss_dsi_panel_init(struct device_node *node,
 
 	backlight_version = of_get_property(node, "qcom,mdss-dsi-backlight-version", NULL);
 	backlight_manufacture =of_get_property(node, "qcom,mdss-dsi-backlight-manufacture", NULL);
-
 	push_component_info(LCD, (char *)panel_version, (char *)panel_manufacture);
 	push_component_info(BACKLIGHT, (char *)backlight_version, (char *)backlight_manufacture);
 	ctrl_pdata->high_brightness_panel= of_property_read_bool(node,
